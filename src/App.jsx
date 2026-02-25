@@ -6,6 +6,7 @@ import { ViewStudent } from "./componets/ViewStudent";
 import Dashboard from "./componets/Dashboard";
 import Login from "./componets/Login";
 import PrivateRoute from "./componets/PrivateRoute";
+import Notpagefound from "./componets/Notpagefound";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/studentedite/:id" element={<Edite />} />
           <Route path="/studentview/:id" element={<ViewStudent />} />
+          <Route path="*" element={<Notpagefound />} />
         </Route>
       </Routes>
     </>
