@@ -1,11 +1,4 @@
 {
-  "admins": [
-    {
-      "id": 1,
-      "username": "",
-      "password": ""
-    }
-  ],
   "students": [
     {
       "id": 3,

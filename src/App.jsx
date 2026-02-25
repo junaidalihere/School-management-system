@@ -12,15 +12,14 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/" element={<PrivateRoute />}>
-          <Route path="/" element={<StudentTable />} />
-          <Route path="/addstudent" element={<Addstudent />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/studentedite/:id" element={<Edite />} />
-          <Route path="/studentview/:id" element={<ViewStudent />} />
-          <Route path="*" element={<Notpagefound />} />
-        </Route>
+        {/* <Route path="/login" element={<Login />} /> */}
+        {/* <Route path="/" element={<PrivateRoute />}></Route> */}
+        <Route path="/" element={<StudentTable />} />
+        <Route path="/addstudent" element={<Addstudent />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/studentedite/:id" element={<Edite />} />
+        <Route path="/studentview/:id" element={<ViewStudent />} />
+        <Route path="*" element={<Notpagefound />} />
       </Routes>
     </>
   );
