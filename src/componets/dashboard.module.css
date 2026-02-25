@@ -1,0 +1,83 @@
+.dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.topBar h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #111827;
+}
+
+/* Buttons */
+.topBar .backBtn,
+.topBar .logoutBtn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.3s;
+  margin-left: 10px;
+}
+
+.topBar .backBtn {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.topBar .backBtn:hover {
+  background-color: #4338ca;
+}
+
+.topBar .logoutBtn {
+  background-color: #dc2626;
+  color: white;
+}
+
+.topBar .logoutBtn:hover {
+  background-color: #991b1b;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #374151;
+}
+
+.card p {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Paid / Unpaid */
+.paid {
+  border-top: 4px solid #16a34a;
+}
+
+.unpaid {
+  border-top: 4px solid #dc2626;
+}

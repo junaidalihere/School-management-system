@@ -1,0 +1,559 @@
+
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
+
+
+
+{
+  "admins": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123456"
+    }
+  ],
+  "students": [
+    {
+      "id": 3,
+      "Name": "Usman",
+      "Fathername": "Rashid",
+      "Cast": "Malik",
+      "Class": "8",
+      "Fees": "900",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-14",
+      "Time": "11:00"
+    },
+    {
+      "id": 4,
+      "Name": "Hamza",
+      "Fathername": "Naveed",
+      "Cast": "Rajput",
+      "Class": "7",
+      "Fees": "800",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-15",
+      "Time": "09:30"
+    },
+    {
+      "id": 5,
+      "Name": "Ayan",
+      "Fathername": "Imran",
+      "Cast": "Khan",
+      "Class": "6",
+      "Fees": "700",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-03-16",
+      "Time": "12:45"
+    },
+    {
+      "id": 6,
+      "Name": "Bilal",
+      "Fathername": "Aslam",
+      "Cast": "Butt",
+      "Class": "10",
+      "Fees": "1100",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-17",
+      "Time": "08:20"
+    },
+    {
+      "id": 7,
+      "Name": "Saad",
+      "Fathername": "Farooq",
+      "Cast": "Qureshi",
+      "Class": "9",
+      "Fees": "1000",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-18",
+      "Time": "14:10"
+    },
+    {
+      "id": 8,
+      "Name": "Huzaifa",
+      "Fathername": "Khalid",
+      "Cast": "Awan",
+      "Class": "8",
+      "Fees": "950",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-03-19",
+      "Time": "15:00"
+    },
+    {
+      "id": 9,
+      "Name": "Daniyal",
+      "Fathername": "Salman",
+      "Cast": "Siddiqui",
+      "Class": "7",
+      "Fees": "850",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-20",
+      "Time": "16:40"
+    },
+    {
+      "id": 10,
+      "Name": "Taha",
+      "Fathername": "Arif",
+      "Cast": "Jutt",
+      "Class": "6",
+      "Fees": "750",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-21",
+      "Time": "17:30"
+    },
+    {
+      "id": 11,
+      "Name": "Hassan",
+      "Fathername": "Yasir",
+      "Cast": "Mirza",
+      "Class": "10",
+      "Fees": "1300",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-22",
+      "Time": "18:10"
+    },
+    {
+      "id": 12,
+      "Name": "Shayan",
+      "Fathername": "Waqas",
+      "Cast": "Abbasi",
+      "Class": "9",
+      "Fees": "1200",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-03-23",
+      "Time": "09:00"
+    },
+    {
+      "id": 13,
+      "Name": "Ibrahim",
+      "Fathername": "Adnan",
+      "Cast": "Hashmi",
+      "Class": "8",
+      "Fees": "1000",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-24",
+      "Time": "10:50"
+    },
+    {
+      "id": 14,
+      "Name": "Fahad",
+      "Fathername": "Sohail",
+      "Cast": "Chaudhry",
+      "Class": "7",
+      "Fees": "900",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-25",
+      "Time": "11:40"
+    },
+    {
+      "id": 15,
+      "Name": "Umer",
+      "Fathername": "Noman",
+      "Cast": "Rana",
+      "Class": "6",
+      "Fees": "800",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-03-26",
+      "Time": "12:20"
+    },
+    {
+      "id": 16,
+      "Name": "Sameer",
+      "Fathername": "Shahid",
+      "Cast": "Mughal",
+      "Class": "10",
+      "Fees": "1400",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-27",
+      "Time": "13:00"
+    },
+    {
+      "id": 17,
+      "Name": "Adeel",
+      "Fathername": "Zubair",
+      "Cast": "Ansari",
+      "Class": "9",
+      "Fees": "1100",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-28",
+      "Time": "14:30"
+    },
+    {
+      "id": 18,
+      "Name": "Moiz",
+      "Fathername": "Faisal",
+      "Cast": "Pathan",
+      "Class": "8",
+      "Fees": "1000",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-03-29",
+      "Time": "15:15"
+    },
+    {
+      "id": 19,
+      "Name": "Rayan",
+      "Fathername": "Bilal",
+      "Cast": "Khokhar",
+      "Class": "7",
+      "Fees": "900",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-30",
+      "Time": "16:00"
+    },
+    {
+      "id": 20,
+      "Name": "Arham",
+      "Fathername": "Kamran",
+      "Cast": "Niazi",
+      "Class": "6",
+      "Fees": "850",
+      "FeesStatus": "Paid",
+      "Date": "2026-03-31",
+      "Time": "17:10"
+    },
+    {
+      "id": 21,
+      "Name": "Talha",
+      "Fathername": "Azhar",
+      "Cast": "Lodhi",
+      "Class": "10",
+      "Fees": "1500",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-01",
+      "Time": "09:10"
+    },
+    {
+      "id": 22,
+      "Name": "Zubair",
+      "Fathername": "Iqbal",
+      "Cast": "Farooqi",
+      "Class": "9",
+      "Fees": "1250",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-02",
+      "Time": "10:00"
+    },
+    {
+      "id": 23,
+      "Name": "Saif",
+      "Fathername": "Aftab",
+      "Cast": "Bukhari",
+      "Class": "8",
+      "Fees": "1050",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-03",
+      "Time": "11:30"
+    },
+    {
+      "id": 24,
+      "Name": "Waleed",
+      "Fathername": "Shakeel",
+      "Cast": "Naqvi",
+      "Class": "7",
+      "Fees": "950",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-04",
+      "Time": "12:40"
+    },
+    {
+      "id": 25,
+      "Name": "Anas",
+      "Fathername": "Hameed",
+      "Cast": "Gilani",
+      "Class": "6",
+      "Fees": "850",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-04-05",
+      "Time": "13:20"
+    },
+    {
+      "id": 26,
+      "Name": "Shahzaib",
+      "Fathername": "Rauf",
+      "Cast": "Minhas",
+      "Class": "10",
+      "Fees": "1350",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-06",
+      "Time": "14:00"
+    },
+    {
+      "id": 27,
+      "Name": "Mustafa",
+      "Fathername": "Sajid",
+      "Cast": "Bajwa",
+      "Class": "9",
+      "Fees": "1200",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-07",
+      "Time": "15:10"
+    },
+    {
+      "id": 28,
+      "Name": "Zeeshan",
+      "Fathername": "Naseer",
+      "Cast": "Warraich",
+      "Class": "8",
+      "Fees": "1000",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-04-08",
+      "Time": "16:00"
+    },
+    {
+      "id": 29,
+      "Name": "Faizan",
+      "Fathername": "Tariq",
+      "Cast": "Cheema",
+      "Class": "7",
+      "Fees": "900",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-09",
+      "Time": "17:30"
+    },
+    {
+      "id": 30,
+      "Name": "Affan",
+      "Fathername": "Nasir",
+      "Cast": "Soomro",
+      "Class": "6",
+      "Fees": "800",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-10",
+      "Time": "18:20"
+    },
+    {
+      "id": 31,
+      "Name": "Kashif",
+      "Fathername": "Munir",
+      "Cast": "Arain",
+      "Class": "10",
+      "Fees": "1450",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-11",
+      "Time": "09:40"
+    },
+    {
+      "id": 32,
+      "Name": "Noman",
+      "Fathername": "Saleem",
+      "Cast": "Punjabi",
+      "Class": "9",
+      "Fees": "1150",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-04-12",
+      "Time": "10:30"
+    },
+    {
+      "id": 33,
+      "Name": "Haris",
+      "Fathername": "Sarfraz",
+      "Cast": "Afridi",
+      "Class": "8",
+      "Fees": "980",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-13",
+      "Time": "11:15"
+    },
+    {
+      "id": 34,
+      "Name": "Rehan",
+      "Fathername": "Masood",
+      "Cast": "Satti",
+      "Class": "7",
+      "Fees": "920",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-14",
+      "Time": "12:10"
+    },
+    {
+      "id": 35,
+      "Name": "Ahsan",
+      "Fathername": "Rizwan",
+      "Cast": "Dar",
+      "Class": "6",
+      "Fees": "870",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-04-15",
+      "Time": "13:50"
+    },
+    {
+      "id": 36,
+      "Name": "Basit",
+      "Fathername": "Shabbir",
+      "Cast": "Kayani",
+      "Class": "10",
+      "Fees": "1500",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-16",
+      "Time": "14:30"
+    },
+    {
+      "id": 37,
+      "Name": "Yahya",
+      "Fathername": "Majid",
+      "Cast": "Jan",
+      "Class": "9",
+      "Fees": "1250",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-17",
+      "Time": "15:45"
+    },
+    {
+      "id": 38,
+      "Name": "Sami",
+      "Fathername": "Anwar",
+      "Cast": "Lakhani",
+      "Class": "8",
+      "Fees": "1050",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-04-18",
+      "Time": "16:20"
+    },
+    {
+      "id": 39,
+      "Name": "Ammar",
+      "Fathername": "Riaz",
+      "Cast": "Memon",
+      "Class": "7",
+      "Fees": "950",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-19",
+      "Time": "17:40"
+    },
+    {
+      "id": 40,
+      "Name": "Kabeer",
+      "Fathername": "Jawad",
+      "Cast": "Baig",
+      "Class": "6",
+      "Fees": "880",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-20",
+      "Time": "18:10"
+    },
+    {
+      "id": 41,
+      "Name": "Huzaib",
+      "Fathername": "Feroz",
+      "Cast": "Jafri",
+      "Class": "10",
+      "Fees": "1600",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-21",
+      "Time": "09:00"
+    },
+    {
+      "id": 42,
+      "Name": "Rayyan",
+      "Fathername": "Irfan",
+      "Cast": "Kazi",
+      "Class": "9",
+      "Fees": "1300",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-04-22",
+      "Time": "10:10"
+    },
+    {
+      "id": 43,
+      "Name": "Maaz",
+      "Fathername": "Qasim",
+      "Cast": "Nawaz",
+      "Class": "8",
+      "Fees": "1100",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-23",
+      "Time": "11:25"
+    },
+    {
+      "id": 44,
+      "Name": "Shahmeer",
+      "Fathername": "Usama",
+      "Cast": "Rasheed",
+      "Class": "7",
+      "Fees": "980",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-24",
+      "Time": "12:35"
+    },
+    {
+      "id": 45,
+      "Name": "Areeb",
+      "Fathername": "Shahzad",
+      "Cast": "Latif",
+      "Class": "6",
+      "Fees": "900",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-04-25",
+      "Time": "13:45"
+    },
+    {
+      "id": 46,
+      "Name": "Hasnain",
+      "Fathername": "Aamir",
+      "Cast": "Gondal",
+      "Class": "10",
+      "Fees": "1550",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-26",
+      "Time": "14:55"
+    },
+    {
+      "id": 47,
+      "Name": "Dawood",
+      "Fathername": "Saifullah",
+      "Cast": "Abbasi",
+      "Class": "9",
+      "Fees": "1350",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-27",
+      "Time": "15:35"
+    },
+    {
+      "id": 48,
+      "Name": "Sufyan",
+      "Fathername": "Nadeem",
+      "Cast": "Chishti",
+      "Class": "8",
+      "Fees": "1150",
+      "FeesStatus": "Unpaid",
+      "Date": "2026-04-28",
+      "Time": "16:25"
+    },
+    {
+      "id": 49,
+      "Name": "Eesa",
+      "Fathername": "Tufail",
+      "Cast": "Sabri",
+      "Class": "7",
+      "Fees": "1000",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-29",
+      "Time": "17:15"
+    },
+    {
+      "id": 50,
+      "Name": "Aqib",
+      "Fathername": "Javed",
+      "Cast": "Noor",
+      "Class": "6",
+      "Fees": "950",
+      "FeesStatus": "Paid",
+      "Date": "2026-04-30",
+      "Time": "18:05"
+    },
+    {
+      "Name": "Saif",
+      "Fathername": "Sajid",
+      "Cast": "Bhatti",
+      "Class": "9th",
+      "Fees": "6500",
+      "FeesStatus": "Paid",
+      "Date": "2026-01-01",
+      "Time": "22:12",
+      "id": 51
+    }
+  ]
+}
